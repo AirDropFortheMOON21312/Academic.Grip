@@ -1,0 +1,5 @@
+{
+  "name": "Academic Grip",
+  "description": "An AI-powered study companion that transforms your study materials into active learning tools using Gemini.",
+  "requestFramePermissions": []
+}
