@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { StudyGuide, TabId, Unit } from './types';
-import { generateStudyGuide, FilePayload } from './services/gemini';
+import { generateStudyGuide } from './services/geminiService';
+import type { FilePayload } from './services/geminiService';
 import Sidebar, { TABS } from './components/Sidebar';
 import UploadZone from './components/UploadZone';
 import QuizSection from './components/QuizSection';
